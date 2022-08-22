@@ -26,7 +26,7 @@ function setBackground() {
   "object-fit":"cover","width":"100%","background-position":"center","background-repeat":"no-repeat","background-size": "cover"});
 
   // Fetch APOD background and set to page
-  fetch('https://api.nasa.gov/planetary/apod?api_key=UYBHJ04Q9lLfBjmou4hJQs8ZUPsR0OrRHdvJxaHC&date=2022-08-21')
+  fetch('https://api.nasa.gov/planetary/apod?api_key=UYBHJ04Q9lLfBjmou4hJQs8ZUPsR0OrRHdvJxaHC&date=2022-07-28')
       .then(function (response) {
           return response.json();
       })
