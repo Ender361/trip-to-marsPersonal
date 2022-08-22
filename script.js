@@ -59,6 +59,7 @@ function setOnClicks () {
 
     setProgressPage();
     setProgressBar();
+    console.log(shipType);
   });
 }
 setOnClicks();
