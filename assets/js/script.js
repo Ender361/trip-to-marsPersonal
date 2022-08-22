@@ -67,18 +67,18 @@ function setOnClicks () {
     console.log(shipType);
   });
   $(`#swapHTML`).click(function() {
-    window.location = "file:///C:/Users/kidsp/UW-Project1/trip-to-mars/progress.html"
+    window.location = "https://ender361.github.io/trip-to-marsPersonal/progress"
   });
 
   $(`#restart`).click(function() {
-    window.location = "file:///C:/Users/kidsp/UW-Project1/trip-to-mars/intro.html"
+    window.location = "https://ender361.github.io/trip-to-marsPersonal/index"
   });
 
   $(`#goalYesNo`).children().click(function() {
     setProgressBar(currentGoalDay);
     setProgressPage();
     if (currentGoalDay > goalTimeline) {
-      window.location = "file:///C:/Users/kidsp/UW-Project1/trip-to-mars/finish.html";
+      window.location = "https://ender361.github.io/trip-to-marsPersonal/finish";
       currentGoalDay = 1;
     }
   });
@@ -186,7 +186,7 @@ function introInput() {
     var tempGoalTimeline = $(`#goal_timeline`).val();
     localStorage.setItem('goalTimeline', tempGoalTimeline);
 
-    window.location = "file:///C:/Users/kidsp/UW-Project1/trip-to-mars/progress.html";
+    window.location = "https://ender361.github.io/trip-to-marsPersonal/progress";
 
   });
 
